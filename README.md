@@ -150,7 +150,7 @@ To run the game on your local machine, follow these steps:
 
 Go to the Includes.inc file located in the include/ directory and update the paths according to where MASM32 and Irvine libraries are installed on your system.
 Example of what you might need to update in Includes.inc:
-   ```bash
+
 ; Example path update for MASM32
 MASM32_PATH = "C:\\path\\to\\masm32\\"
 
@@ -158,6 +158,18 @@ MASM32_PATH = "C:\\path\\to\\masm32\\"
 IRVINE_PATH = "C:\\path\\to\\irvine\\"
 
 
+
 Similarly, in the run.bat file, change the path to MASM32 in line 3 and the path to your cloned project in line 4.
 Example of what you might need to update in run.bat:
 
+REM Update MASM32 path (line 3)
+SET MASM32=C:\path\to\masm32
+
+REM Update project directory path (line 4)
+SET PROJECT_DIR=C:\path\to\your\cloned\project
+
+2. **Build and Run:**
+ 
+Once the paths are set up, execute the following command in your command line terminal to build and run the game:
+ ```bash
+./run.bat main.ASM
