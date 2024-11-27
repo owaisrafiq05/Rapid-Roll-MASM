@@ -144,5 +144,20 @@ To run the game on your local machine, follow these steps:
 1. **Clone the Repository:**
    Clone the project to your local machine using Git.
    ```bash
-   git clone https://github.com/yourusername/rapid-roll.git
+   git clone https://github.com/yourusername/rapid-roll.git](https://github.com/owaisrafiq05/Rapid-Roll-MASM.git
+
+2. **Set Up MASM32 and Irvine Libraries:**
+
+Go to the Includes.inc file located in the include/ directory and update the paths according to where MASM32 and Irvine libraries are installed on your system.
+Example of what you might need to update in Includes.inc:
+   ```bash
+; Example path update for MASM32
+MASM32_PATH = "C:\\path\\to\\masm32\\"
+
+; Example path update for Irvine Library
+IRVINE_PATH = "C:\\path\\to\\irvine\\"
+
+
+Similarly, in the run.bat file, change the path to MASM32 in line 3 and the path to your cloned project in line 4.
+Example of what you might need to update in run.bat:
 
