@@ -137,3 +137,12 @@ Future enhancements could include additional features like difficulty levels, im
 
 ---
 
+## **⚙️ How to Run Locally**
+
+To run the game on your local machine, follow these steps:
+
+1. **Clone the Repository:**
+   Clone the project to your local machine using Git.
+   ```bash
+   git clone https://github.com/yourusername/rapid-roll.git
+
